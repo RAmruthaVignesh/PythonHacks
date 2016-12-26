@@ -42,7 +42,7 @@ def removeaxis():
 
 
 
-arrayimg = getarray_from_img("../PythonLearning/CV_sampleImages/IMG_6627.JPG")
+arrayimg = getarray_from_img("../CV_sampleImages/IMG_6627.JPG")
 opimg1= plotimg_from_array(arrayimg)
 opimg2 =plot_marker_in_img(opimg1,[1000,2000,1500,2000],[200,500,200,400],'Plotting: Points of interest')
 removeaxis()

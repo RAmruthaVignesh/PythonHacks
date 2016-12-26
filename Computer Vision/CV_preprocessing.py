@@ -21,5 +21,5 @@ def grayscale(img):
 def plotimg_from_array(img):
     '''This function plots the matrix'''
     opimg=array(Image.open(img))
-    opimg = imshow(arrayimg)
+    opimg = imshow(opimg)
     return opimg
